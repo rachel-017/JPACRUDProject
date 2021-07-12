@@ -33,7 +33,7 @@
 		</c:otherwise>
 	</c:choose>
 	
-	<a href="WEB-INF/index.jsp">Go Home</a><br/>
+	<a href="home.do">Go Home</a><br/>
 
 </body>
 </html>

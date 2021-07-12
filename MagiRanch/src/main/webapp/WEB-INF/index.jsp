@@ -17,11 +17,11 @@
 	<br>
 	
 	<p>
-		Add a New Creature<a href="addCreature.jsp">&nbsp;Add</a>
+		Add a New Creature<a href="addCreature">&nbsp;Add</a>
 		<br/>
-		Update a Creature File<a href="updateCreature.jsp">&nbsp;Update</a>
+		Update a Creature File<a href="updateCreature">&nbsp;Update</a>
 		<br>
-		Delete a Creature File<a href="deleteCreature.jsp">&nbsp;Delete</a>
+		Delete a Creature File<a href="deleteCreature">&nbsp;Delete</a>
 	</p>
 
 </body>

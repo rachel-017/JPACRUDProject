@@ -26,7 +26,7 @@ public class MagiRanchController {
 	public String getCreatureById(Integer cid, Model model) {
 		
 		model.addAttribute("creature", dao.findCreatureById(cid));
-		return "creature/idSearchResults";
+		return "idSearchResults";
 	}
 
 	
@@ -41,7 +41,7 @@ public class MagiRanchController {
 	@RequestMapping("addedCreature.do")
 	public String creatureCreated() {
 
-		return "creature/addResults"; 
+		return "addResults"; 
 	}
 	
 	
@@ -57,7 +57,7 @@ public class MagiRanchController {
 	@RequestMapping("creatureDeleted.do")
 	public String creatureDeleted() {
 		
-		return "creature/deleteResults"; 
+		return "deleteResults"; 
 	}
 	
 	
@@ -72,7 +72,7 @@ public class MagiRanchController {
 	@RequestMapping("updatedCreature.do")
 	public String creatureUpdated() {
 		
-		return "creature/updateResults"; 
+		return "updateResults"; 
 	}
 
 }
